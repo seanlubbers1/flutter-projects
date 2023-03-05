@@ -1,0 +1,4 @@
+#Mon Feb 13 19:27:31 PST 2023
+base.0=/Users/seanlubbers/StudioProjects/dicce_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
