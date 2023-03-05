@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/seanlubbers/StudioProjects/dicce_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/seanlubbers/Documents/GitHub/flutter-projects/dicee/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/Users/seanlubbers/Documents/GitHub/flutter-projects/dicee/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "93",
+                        "startColumns": "4",
+                        "startOffsets": "5462",
+                        "endLines": "97",
+                        "endColumns": "12",
+                        "endOffsets": "5754"
+                    }
+                },
                 {
                     "source": "/Users/seanlubbers/.gradle/caches/transforms-3/bb9a53f8c4dc071c681fa071739dc70b/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",
                     "from": {
@@ -20,25 +39,6 @@
                         "endLines": "7,8,9,10,72,118,122,271,288,296",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "289,349,401,446,4387,7069,7266,16227,17341,17734"
-                    }
-                },
-                {
-                    "source": "/Users/seanlubbers/StudioProjects/dicce_flutter/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "347"
-                    },
-                    "to": {
-                        "startLines": "93",
-                        "startColumns": "4",
-                        "startOffsets": "5462",
-                        "endLines": "97",
-                        "endColumns": "12",
-                        "endOffsets": "5754"
                     }
                 },
                 {
