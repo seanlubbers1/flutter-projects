@@ -32,6 +32,14 @@ class Ball extends StatefulWidget {
 
 class _BallState extends State<Ball> {
   var ballNumber = 0;
+  void num_updater() {
+    setState(() {
+      Random random = new Random();
+      ballNumber = 1 + random.nextInt(5);
+      // print("Ball Number is $ballNumber");
+      print("ballNumber is $ballNumber");
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -40,10 +48,7 @@ class _BallState extends State<Ball> {
           Expanded(
             child: TextButton(
               onPressed: (){
-                Random random = new Random();
-                ballNumber = 1 + random.nextInt(5);
-                // print("Ball Number is $ballNumber");
-                print("ballNumber is $ballNumber");
+                num_updater();
               },
               child: Center(child: Image.asset('images/ball$ballNumber.png')),
             ),
